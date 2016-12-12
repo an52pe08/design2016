@@ -1,38 +1,57 @@
 #header {
   position:relative;
   display:block;
-  background-color:red;
+  background-color:white;
   width:100%;
   height:200px;
+  font-size: 70px;
+  text-align: center;
+  font-size: 70px;
+  font-family: PT Serif Caption;
 }
 
 #left_block {
   position:relative;
   display:block;
-  background-color:blue;
+  background-color:white;
   width:390px;
   height:1000px;
   float:left;
-text-family:Courier New;
-text-font: 20px;
+font-family:Courier;
+font-size: 16px;
 text-align: center }
+
+#header img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
 
 #left_block img {
   position: absolute;
   top: 50px;
-  right: 85px;
-
+  right: 100px;
+}
+#middle_block img {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+#right_block img {
+  position: absolute;
+  top: 50px;
+  right: 100px;
 }
 
 #middle_block {
 position:relative;
 display:block;
-background-color:green;
+background-color: white;
 width:390px;
 height:1000px;
 float:left;
-text-family:Courier New;
-text-font: 20px;
+font-family:Courier;
+font-size: 16px;
 text-align: center;
 }
 
@@ -53,11 +72,11 @@ text-align: center;
 #right_block {
 position:relative;
 display:block;
-background-color:pink;
+background-color:white;
 width:390px;
 height:1000px;
 float:left;
-text-family:Courier New;
-text-font: 20px;
+font-family:Courier;
+font-size: 16px;
 text-align: center;
 }
