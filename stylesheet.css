@@ -3,24 +3,38 @@
   display:block;
   background-color:red;
   width:100%;
-  height:100px;
+  height:200px;
 }
 
 #left_block {
   position:relative;
   display:block;
   background-color:blue;
-  width:600px;
-  height:100px;}
+  width:390px;
+  height:1000px;
+  float:left;
+text-family:Courier New;
+text-font: 20px;
+text-align: center }
+
+#left_block img {
+  position: absolute;
+  top: 50px;
+  right: 85px;
+
+}
 
 #middle_block {
 position:relative;
 display:block;
 background-color:green;
-width:420px;
-height:100px;
-left: 370px;
-bottom: 100px}
+width:390px;
+height:1000px;
+float:left;
+text-family:Courier New;
+text-font: 20px;
+text-align: center;
+}
 
 .half_page{
   width: 50px;
@@ -40,10 +54,10 @@ bottom: 100px}
 position:relative;
 display:block;
 background-color:pink;
-width:590px;
-height:100px;
-left: 790px;
-bottom: 100px;
-right: 100px;
-top: -200px;
+width:390px;
+height:1000px;
+float:left;
+text-family:Courier New;
+text-font: 20px;
+text-align: center;
 }
